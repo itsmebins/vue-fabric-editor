@@ -33,6 +33,7 @@
     }
   },
   "color": "color",
+  "erase": "erase",
   "textFloat": "float",
   "templates": "templates",
   "elements": "elements",
