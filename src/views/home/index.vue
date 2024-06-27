@@ -23,6 +23,8 @@
           <Divider type="vertical" />
 
           <myTemplName></myTemplName>
+          <erase></erase>
+          <Divider type="vertical" />
           <!-- 标尺开关 -->
           <Tooltip :content="$t('grid')">
             <iSwitch
@@ -200,6 +202,7 @@ import zoom from '@/components/zoom.vue';
 import dragMode from '@/components/dragMode.vue';
 import lock from '@/components/lock.vue';
 import dele from '@/components/del.vue';
+import erase from '@/components/erase.vue';
 import waterMark from '@/components/waterMark.vue';
 import login from '@/components/login';
 import admin from '@/components/admin';
