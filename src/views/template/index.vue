@@ -14,11 +14,11 @@
           <logo></logo>
           <!-- 导入 -->
           <Divider type="vertical" />
-          在线设计工具
+          Online Design Tools
         </div>
 
         <div class="right">
-          <Button type="primary" to="/" size="smail" target="_blank">新建设计</Button>
+          <Button type="primary" to="/" size="smail" target="_blank">New Design</Button>
           <Divider type="vertical" />
           <a href="https://github.com/nihaojob/vue-fabric-editor" target="_blank">
             <img
@@ -43,7 +43,7 @@
             search
             v-model="filters.name.$containsi"
             enter-button
-            placeholder="请输入关键词"
+            placeholder="Please enter keywords"
             @on-search="search"
           />
           <TagSelect v-model="filters.templ_type.$in" @on-change="search">

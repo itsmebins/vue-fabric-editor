@@ -17,7 +17,7 @@
       </Select>
       <Input
         class="input"
-        :placeholder="`在${typeText}中搜索`"
+        :placeholder="`在${typeText}Search`"
         v-model="searchKeyWord"
         search
         :disabled="pageLoading"
